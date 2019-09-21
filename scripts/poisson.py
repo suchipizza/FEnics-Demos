@@ -57,4 +57,10 @@ print('error_L2  =', error_L2)
 print('error_max =', error_max)
 
 # Hold plot
-interactive()
+#interactive() # Note Noemie : interactive doesnt work anymore in Fenics, use matplotlib
+
+# Plot solution
+import matplotlib.pyplot as plt
+plot(u)
+plt.show()
+
